@@ -32,22 +32,28 @@ To get started with EaseDeliver, follow these steps:
 
 ## 📋 **Usage**
 
-Upon running the program, you'll be greeted with the main menu of Seneca College Deliveries. Follow the prompts to enter shipment details and manage your delivery routes.
+Upon running the program, you'll be greeted with the main menu of **Seneca College Deliveries**. Follow the prompts to manage your delivery routes by entering shipment details.
 
-### Input Format
-Enter shipment details in the format: 
+### **Input Format**
 
-weight size destinationX destinationY
+Enter shipment details in the following format:
 
-Example:
+**weight size destinationX destinationY**
 
-5.5 2.3 12 B
+- **weight**: The weight of the shipment.
+- **size**: The size of the shipment.
+- **destinationX**: The X-coordinate of the destination.
+- **destinationY**: The Y-coordinate of the destination.
 
-### Stopping the Program
-To stop the program, enter:
+**Example:**
 
-0 0 x
+**5.5 2.3 12 B**
 
+### **Stopping the Program**
+
+To stop the program, simply enter:
+
+**0 0 x**
 
 ## 📂 **Project Structure**
 
@@ -64,11 +70,13 @@ If you encounter any issues, you can enable debug mode by setting the `debug` va
 int debug = 1;
 
 ```
-🗺️ Map Printing
+## 🗺️ **Map Printing**
 
-Control map printing with the printOutMap variable:
+Control map printing with the `printOutMap` variable:
 
+```c
 // print map
 int printOutMap = 1;  // Set to 0 to disable map printing
+```
 
-Enjoy using EaseDeliver! 🚚📦✨
+Enjoy using **EaseDeliver!** 🚚📦✨
