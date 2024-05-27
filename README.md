@@ -63,6 +63,7 @@ If you encounter any issues, you can enable debug mode by setting the `debug` va
 // debug
 int debug = 1;
 
+```
 🗺️ Map Printing
 
 Control map printing with the printOutMap variable:
